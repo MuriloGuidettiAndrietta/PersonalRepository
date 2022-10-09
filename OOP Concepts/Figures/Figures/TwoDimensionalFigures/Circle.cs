@@ -1,6 +1,6 @@
-﻿namespace Figures.Figures
+﻿namespace Figures.Figures.TwoDimensionalFigures
 {
-    public class Circle : Figure
+    public class Circle : TwoDimensionalFigure
     {
         private double radius;
 
@@ -20,7 +20,7 @@
             return Math.PI * Math.Pow(Radius, 2.0);
         }
 
-        public Circle(double radius) : base ()
+        public Circle(double radius) : base()
         {
             name += "Circle";
             this.radius = radius;

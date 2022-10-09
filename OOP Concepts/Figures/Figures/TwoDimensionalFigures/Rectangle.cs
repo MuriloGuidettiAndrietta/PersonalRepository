@@ -1,6 +1,6 @@
-﻿namespace Figures.Figures
+﻿namespace Figures.Figures.TwoDimensionalFigures
 {
-    public class Triangle : Figure
+    public class Rectangle : TwoDimensionalFigure
     {
         private double width;
         private double height;
@@ -24,12 +24,12 @@
 
         public override double Area()
         {
-            return ((width * height) / 2.0);
+            return width * height;
         }
 
-        public Triangle(double width, double height) : base()
+        public Rectangle(double width, double height) : base()
         {
-            name += "Triangle";
+            name += "Rectangle";
             this.width = width;
             this.height = height;
         }

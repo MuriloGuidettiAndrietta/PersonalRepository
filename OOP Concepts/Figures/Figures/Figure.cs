@@ -1,6 +1,8 @@
-﻿namespace Figures.Figures
+﻿using Figures.Interfaces;
+
+namespace Figures.Figures
 {
-    public abstract class Figure
+    public abstract class Figure : INaming, IArea
     {
         protected string name;
 
