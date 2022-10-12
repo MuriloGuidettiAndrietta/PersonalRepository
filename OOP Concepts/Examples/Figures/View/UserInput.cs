@@ -4,7 +4,7 @@ namespace Figures.View
 {
     public static class UserInput
     {
-        public static Enum GetUserInput(out Enum figureOption, ref List<double> parameterList)
+        public static void GetUserInput(out Enum figureOption, ref List<double> parameterList)
         {
             try
             {
@@ -150,8 +150,6 @@ namespace Figures.View
             {
                 throw;
             }
-
-            return figureOption;
         }
     }
 }
