@@ -1,4 +1,4 @@
-﻿namespace Figures.Utilities.Interfaces;
+﻿namespace Figures.Utilities.UserOptions;
 
 public enum TwoDimensionalFigureOptions
 {

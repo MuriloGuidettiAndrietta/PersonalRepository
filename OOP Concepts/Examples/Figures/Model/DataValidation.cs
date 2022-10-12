@@ -2,7 +2,7 @@
 {
     public static class DataValidation
     {
-        public static void ValidateParameters(List<double> input)
+        public static void ValidateFigureParameters(List<double> input)
         {
             foreach (var i in input)
             {
