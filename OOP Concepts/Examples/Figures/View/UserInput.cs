@@ -1,4 +1,5 @@
-﻿using Figures.Utilities.UserOptions;
+﻿using Figures.Utilities.Constants;
+using Figures.Utilities.UserOptions;
 
 namespace Figures.View
 {
@@ -220,29 +221,46 @@ namespace Figures.View
         public static void FinalSummary(List<string> names, List<double> areas, List<double> volumes)
         {
             Console.Clear();
-            Console.WriteLine("\n\t\t                                    Final Summary                                     ");
-            Console.WriteLine("\n\t\t--------------------------------------------------------------------------------------");
-            Console.WriteLine("\t\t|           Figure           |           Area           |           Volume           |");
-            Console.WriteLine("\t\t--------------------------------------------------------------------------------------");
+            Console.WriteLine("\n\t                                           Final Summary                                         ");
+            Console.WriteLine("\n\t   ----------------------------------------------------------------------------------------------");
+            Console.WriteLine("\t   |            Figure            |             Area             |            Volume            |");
+            Console.WriteLine("\t   ----------------------------------------------------------------------------------------------");
 
             for (int i = 0; i < names.Count; i++)
             {
-                Console.Write("\t\t|\t");
+                Console.Write("\t   |");
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.Write(names[i]);
+                Console.Write(AlignString(names[i]));
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.Write("\t|\t");
+                Console.Write("|");
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.Write(areas[i]);
+                Console.Write(AlignString(areas[i] == 0.0 ? "N/A" : areas[i].ToString("0.00")));
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.Write("\t|\t");
+                Console.Write("|");
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.Write(volumes[i]);
+                Console.Write(AlignString(volumes[i] == 0.0 ? "N/A" : volumes[i].ToString("0.00")));
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.Write("\t|\n");
+                Console.Write("|\n");
             }
-            Console.WriteLine("\t\t--------------------------------------------------------------------------------------");
-            Console.WriteLine("\n\t\t                                     Thank you!                                       ");
+            Console.WriteLine("\t   ----------------------------------------------------------------------------------------------");
+            Console.WriteLine("\n\t                                             Thank you!                                          ");
+        }
+
+
+        private static string AlignString(string disalignedString)
+        {
+            var numberOfInitialSpaces = (Constants.SizeOfFinalSummaryCell - disalignedString.Length) / 2;
+            var numberOfFinalSpaces = Constants.SizeOfFinalSummaryCell - disalignedString.Length - numberOfInitialSpaces;
+            string initialSpaces = string.Empty;
+            string finalSpaces = string.Empty;
+            for (int i = 0; i < numberOfInitialSpaces; i++)
+                initialSpaces += " ";
+            finalSpaces = initialSpaces;
+            if (numberOfInitialSpaces != numberOfFinalSpaces)
+                initialSpaces += " ";
+
+            string alignedString = initialSpaces + disalignedString + finalSpaces;
+            return alignedString;
         }
     }
 }
