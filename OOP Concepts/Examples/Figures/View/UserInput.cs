@@ -5,21 +5,7 @@ namespace Figures.View
 {
     public static class UserInput
     {
-        public static void GetUserInput(out Enum figureOption, ref List<double> figureParameters)
-        {
-            try
-            {
-                var figureType = GetFigureType();
-                figureOption = GetFigureOption(figureType);
-                figureParameters = GetFigureParameters(figureOption);
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-        }
-
-        private static byte GetFigureType()
+        public static byte GetFigureType()
         {
             try
             {
@@ -42,7 +28,7 @@ namespace Figures.View
             }
         }
 
-        private static Enum GetFigureOption(byte figureType)
+        public static Enum GetFigureOption(byte figureType)
         {
             try
             {

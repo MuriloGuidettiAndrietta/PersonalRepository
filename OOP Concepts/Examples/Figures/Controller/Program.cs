@@ -8,18 +8,19 @@ using Figures.Utilities.UserOptions;
 try
 {
     List<Figure> figures = new List<Figure>();
-    do
-    {
-        Enum figureOption;
-        List<double> figureParameters = new List<double>();
-        UserInput.GetUserInput(out figureOption, ref figureParameters);
-        DataValidation.ValidateFigureParameters(figureParameters);
-        InstantiateCorrespondingFigure(figureOption, figureParameters, ref figures);        
-    } while (UserInput.KeepRunning());
-
     List<string> names = new List<string>();
     List<double> areas = new List<double>();
     List<double> volumes = new List<double>();
+
+    do
+    {
+        var figureType = UserInput.GetFigureType();
+        var figureOption = UserInput.GetFigureOption(figureType);
+        var figureParameters = UserInput.GetFigureParameters(figureOption);
+        DataValidation.ValidateFigureParameters(figureParameters);
+        InstantiateCorrespondingFigure(figureOption, figureParameters, ref figures);        
+    } while (UserInput.KeepRunning());
+        
     ProcessFigures(figures, ref names, ref areas, ref volumes);
     UserInput.FinalSummary(names, areas, volumes);
 }
