@@ -1,5 +1,11 @@
 ﻿namespace Palindrome
 {
+    /**
+     * Implement a method to check if a linked list is a palindrome.
+     * 
+     * @author Murilo Guidetti Andrietta.
+     * 
+     */
     public class Palindrome
     {
         public static void Main(string[] args)
