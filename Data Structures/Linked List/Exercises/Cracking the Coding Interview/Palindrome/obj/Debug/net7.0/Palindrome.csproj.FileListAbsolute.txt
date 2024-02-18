@@ -1,0 +1,14 @@
+C:\Repository\PersonalRepository\Data Structures\Linked List\Exercises\Cracking the Coding Interview\Palindrome\bin\Debug\net7.0\Palindrome.exe
+C:\Repository\PersonalRepository\Data Structures\Linked List\Exercises\Cracking the Coding Interview\Palindrome\bin\Debug\net7.0\Palindrome.deps.json
+C:\Repository\PersonalRepository\Data Structures\Linked List\Exercises\Cracking the Coding Interview\Palindrome\bin\Debug\net7.0\Palindrome.runtimeconfig.json
+C:\Repository\PersonalRepository\Data Structures\Linked List\Exercises\Cracking the Coding Interview\Palindrome\bin\Debug\net7.0\Palindrome.dll
+C:\Repository\PersonalRepository\Data Structures\Linked List\Exercises\Cracking the Coding Interview\Palindrome\bin\Debug\net7.0\Palindrome.pdb
+C:\Repository\PersonalRepository\Data Structures\Linked List\Exercises\Cracking the Coding Interview\Palindrome\obj\Debug\net7.0\Palindrome.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repository\PersonalRepository\Data Structures\Linked List\Exercises\Cracking the Coding Interview\Palindrome\obj\Debug\net7.0\Palindrome.AssemblyInfoInputs.cache
+C:\Repository\PersonalRepository\Data Structures\Linked List\Exercises\Cracking the Coding Interview\Palindrome\obj\Debug\net7.0\Palindrome.AssemblyInfo.cs
+C:\Repository\PersonalRepository\Data Structures\Linked List\Exercises\Cracking the Coding Interview\Palindrome\obj\Debug\net7.0\Palindrome.csproj.CoreCompileInputs.cache
+C:\Repository\PersonalRepository\Data Structures\Linked List\Exercises\Cracking the Coding Interview\Palindrome\obj\Debug\net7.0\Palindrome.dll
+C:\Repository\PersonalRepository\Data Structures\Linked List\Exercises\Cracking the Coding Interview\Palindrome\obj\Debug\net7.0\refint\Palindrome.dll
+C:\Repository\PersonalRepository\Data Structures\Linked List\Exercises\Cracking the Coding Interview\Palindrome\obj\Debug\net7.0\Palindrome.pdb
+C:\Repository\PersonalRepository\Data Structures\Linked List\Exercises\Cracking the Coding Interview\Palindrome\obj\Debug\net7.0\Palindrome.genruntimeconfig.cache
+C:\Repository\PersonalRepository\Data Structures\Linked List\Exercises\Cracking the Coding Interview\Palindrome\obj\Debug\net7.0\ref\Palindrome.dll
