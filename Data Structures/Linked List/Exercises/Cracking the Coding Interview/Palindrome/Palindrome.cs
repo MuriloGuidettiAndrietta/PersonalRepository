@@ -1,6 +1,4 @@
-﻿using Palindrome.Errors;
-
-namespace Palindrome
+﻿namespace Palindrome
 {
     public class Palindrome
     {
@@ -10,8 +8,8 @@ namespace Palindrome
             {
                 Console.WriteLine("\n\tPalindrome\n");
 
-                var linkedList = MockLinkedList();      
-                
+                var linkedList = MockLinkedList();
+
                 var isPalindrome = IsPalindrome(linkedList);
                 if (isPalindrome)
                     Console.WriteLine("\t\tThe List is a Palindrome.");
@@ -21,7 +19,7 @@ namespace Palindrome
             catch (Exception exception)
             {
                 Console.Error.WriteLine($"\t\t{exception.Message}");
-            }            
+            }
         }
 
         public static List<string> MockLinkedList()
@@ -36,7 +34,7 @@ namespace Palindrome
 
                 return linkedList;
             }
-            catch(Exception)
+            catch (Exception)
             {
                 throw;
             }
@@ -47,11 +45,11 @@ namespace Palindrome
             try
             {
                 if (linkedList is null || !linkedList.Any())
-                    throw new Exception($"{PalindromeErrors.EmptyInputError}");
+                    throw new Exception($"{Errors.EmptyInputError}");
 
                 var concatenatedLinkedList = new System.Text.StringBuilder(string.Empty);
                 foreach (var node in linkedList)
-                    concatenatedLinkedList.Append(node.ToLower());;
+                    concatenatedLinkedList.Append(node.ToLower()); ;
 
                 var reversedConcatenatedLinkedList = new System.Text.StringBuilder(string.Empty);
                 for (var concatenatedLinkedListIndex = concatenatedLinkedList.Length - 1; concatenatedLinkedListIndex >= 0; concatenatedLinkedListIndex--)
@@ -63,6 +61,6 @@ namespace Palindrome
             {
                 throw;
             }
-        }                
+        }
     }
 }
