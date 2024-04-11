@@ -17,14 +17,6 @@ namespace Stack.Stack.StaticStack
             Count = 0;
         }
 
-        public override T Top()
-        {
-            if (IsEmpty())
-                throw new Exception();
-
-            return Stack[Count - 1];
-        }
-
         public override bool IsEmpty()
         {
             return Count == 0;
@@ -35,12 +27,12 @@ namespace Stack.Stack.StaticStack
             return Count == MaximumSize;
         }
 
-        public override void Pop()
+        public override T Top()
         {
             if (IsEmpty())
                 throw new Exception();
 
-            Count--;
+            return Stack[Count - 1];
         }
 
         public override void Push(T data)
@@ -51,6 +43,14 @@ namespace Stack.Stack.StaticStack
             Stack[Count] = data;
             Count++;
         }
+
+        public override void Pop()
+        {
+            if (IsEmpty())
+                throw new Exception();
+
+            Count--;
+        }       
 
         public override void Print()
         {
