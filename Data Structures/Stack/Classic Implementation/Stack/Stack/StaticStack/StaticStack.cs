@@ -1,5 +1,4 @@
 ﻿using Stack.Constants;
-using System.ComponentModel.Design.Serialization;
 
 namespace Stack.Stack.StaticStack
 {

@@ -17,7 +17,7 @@
         // Removes the top element from the Stack.
         void Pop();
 
-        // Print all elements from the Stack.
+        // Prints all elements from the Stack.
         void Print();
     }
 }
