@@ -2,19 +2,22 @@
 {
     public interface IStack<T>
     {
-        // Returns the Top element of the Stack.        
+        // Returns the Top element from the Stack.        
         T Top();
 
         // Returns true if the Stack has no elements, and false, otherwise.
         bool IsEmpty();
 
-        // Returns true if the Stack has the reached the maximum number of allowed elements, and false, otherwise.
+        // Returns true if the Stack has reached the maximum number of allowed elements, and false, otherwise.
         bool IsFull();
 
         // Adds a new element to the top of the Stack.
         void Push(T data);
 
-        // Removes the top element of the Stack.
+        // Removes the top element from the Stack.
         void Pop();
+
+        // Print all elements from the Stack.
+        void Print();
     }
 }

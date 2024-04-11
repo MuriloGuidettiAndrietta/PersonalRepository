@@ -19,6 +19,11 @@ namespace Stack.Stack
             throw new NotImplementedException();
         }
 
+        public virtual void Print()
+        {
+            throw new NotImplementedException();
+        }
+
         public virtual void Push(T data)
         {
             throw new NotImplementedException();
