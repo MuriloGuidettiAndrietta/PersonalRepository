@@ -69,14 +69,17 @@ namespace StaticStack.StaticStack
 
         public void Print()
         {
-            Console.WriteLine("\t-------------------------");
-            Console.WriteLine("\t Printing Stack Elements");
-            Console.WriteLine("\t-------------------------");
-
+            Console.WriteLine("\n\t\t-------------------------");
+            Console.Write("\t\t      ");
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("Stack Elements");
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.WriteLine("\t\t-------------------------");
+            
             for (var index = Count - 1; index >= 0; index--)
-                Console.WriteLine($"\t\t{Stack[index]}");
+                Console.WriteLine($"\t\t    {Stack[index]}");        
 
-            Console.WriteLine("\t-------------------------");
+            Console.WriteLine("\t\t-------------------------");
         }
 
         #endregion
