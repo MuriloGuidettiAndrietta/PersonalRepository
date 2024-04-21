@@ -1,0 +1,14 @@
+C:\Repository\PersonalRepository\C#\Ref vs Out\bin\Debug\net7.0\Ref vs Out.exe
+C:\Repository\PersonalRepository\C#\Ref vs Out\bin\Debug\net7.0\Ref vs Out.deps.json
+C:\Repository\PersonalRepository\C#\Ref vs Out\bin\Debug\net7.0\Ref vs Out.runtimeconfig.json
+C:\Repository\PersonalRepository\C#\Ref vs Out\bin\Debug\net7.0\Ref vs Out.dll
+C:\Repository\PersonalRepository\C#\Ref vs Out\bin\Debug\net7.0\Ref vs Out.pdb
+C:\Repository\PersonalRepository\C#\Ref vs Out\obj\Debug\net7.0\Ref vs Out.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repository\PersonalRepository\C#\Ref vs Out\obj\Debug\net7.0\Ref vs Out.AssemblyInfoInputs.cache
+C:\Repository\PersonalRepository\C#\Ref vs Out\obj\Debug\net7.0\Ref vs Out.AssemblyInfo.cs
+C:\Repository\PersonalRepository\C#\Ref vs Out\obj\Debug\net7.0\Ref vs Out.csproj.CoreCompileInputs.cache
+C:\Repository\PersonalRepository\C#\Ref vs Out\obj\Debug\net7.0\Ref vs Out.dll
+C:\Repository\PersonalRepository\C#\Ref vs Out\obj\Debug\net7.0\refint\Ref vs Out.dll
+C:\Repository\PersonalRepository\C#\Ref vs Out\obj\Debug\net7.0\Ref vs Out.pdb
+C:\Repository\PersonalRepository\C#\Ref vs Out\obj\Debug\net7.0\Ref vs Out.genruntimeconfig.cache
+C:\Repository\PersonalRepository\C#\Ref vs Out\obj\Debug\net7.0\ref\Ref vs Out.dll
