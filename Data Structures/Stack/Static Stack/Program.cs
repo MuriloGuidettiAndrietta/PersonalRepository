@@ -1,5 +1,6 @@
 ﻿using StaticStack.Errors;
 using StaticStack.StaticStack;
+using Serilog;
 
 namespace StaticStack
 {
@@ -102,10 +103,12 @@ namespace StaticStack
             }
             catch (Exception ex)
             {
-                Console.BackgroundColor = ConsoleColor.Red;
-                Console.WriteLine($"\n\t{ex.Message}");
-                Console.WriteLine("\n\tAborting.\n");
-                Console.BackgroundColor = ConsoleColor.Black;
+                Console.Clear();
+                Console.WriteLine();
+                Log.Logger = new LoggerConfiguration().WriteTo.Console().CreateLogger();
+                Log.Error($"{ex.Message}");
+                Log.Information("Aborting.");
+                Log.CloseAndFlush();
             }
         }
 

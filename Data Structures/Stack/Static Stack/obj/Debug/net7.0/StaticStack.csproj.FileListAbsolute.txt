@@ -12,3 +12,7 @@ C:\Repository\PersonalRepository\Data Structures\Stack\Static Stack\obj\Debug\ne
 C:\Repository\PersonalRepository\Data Structures\Stack\Static Stack\obj\Debug\net7.0\StaticStack.pdb
 C:\Repository\PersonalRepository\Data Structures\Stack\Static Stack\obj\Debug\net7.0\StaticStack.genruntimeconfig.cache
 C:\Repository\PersonalRepository\Data Structures\Stack\Static Stack\obj\Debug\net7.0\ref\StaticStack.dll
+C:\Repository\PersonalRepository\Data Structures\Stack\Static Stack\bin\Debug\net7.0\Serilog.dll
+C:\Repository\PersonalRepository\Data Structures\Stack\Static Stack\obj\Debug\net7.0\StaticStack.csproj.AssemblyReference.cache
+C:\Repository\PersonalRepository\Data Structures\Stack\Static Stack\obj\Debug\net7.0\StaticStack.csproj.CopyComplete
+C:\Repository\PersonalRepository\Data Structures\Stack\Static Stack\bin\Debug\net7.0\Serilog.Sinks.Console.dll

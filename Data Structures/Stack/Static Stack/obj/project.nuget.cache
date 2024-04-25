@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "zFUzuikYpQLbFeNlUQdFWJby1p7/t1x9MRlcseOi09AYv3kaNTKhrfTCcPuOTyru2f2xFQWHEFOn0eeArflVIg==",
+  "dgSpecHash": "sgnOM0PUI+vfIvfq6q5H6glmJ/DpJWq928q/FCEIrxT0d6RG4gJJj4hNFGsxDkELNMMhAjGoP7qsB7WFAdbD9w==",
   "success": true,
   "projectFilePath": "C:\\Repository\\PersonalRepository\\Data Structures\\Stack\\Static Stack\\StaticStack.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mgand\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
+    "C:\\Users\\mgand\\.nuget\\packages\\serilog.sinks.console\\5.0.1\\serilog.sinks.console.5.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
