@@ -68,13 +68,13 @@ namespace StaticStack
                         }
                         case 4:
                         {
-                                var isEmpty = staticStack.IsEmpty();
+                            var isEmpty = staticStack.IsEmpty();
 
-                                Console.BackgroundColor = ConsoleColor.DarkGreen;
-                                Console.WriteLine(isEmpty ? "\n\t\tYes, the Stack is empty." : "\n\t\tNo, the Stack is not empty.");
-                                Console.BackgroundColor = ConsoleColor.Black;
+                            Console.BackgroundColor = ConsoleColor.DarkGreen;
+                            Console.WriteLine(isEmpty ? "\n\t\tYes, the Stack is empty." : "\n\t\tNo, the Stack is not empty.");
+                            Console.BackgroundColor = ConsoleColor.Black;
 
-                                break;
+                            break;
                         }
                         case 5:
                         {
