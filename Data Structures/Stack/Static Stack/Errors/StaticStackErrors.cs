@@ -1,6 +1,6 @@
 ﻿namespace StaticStack.Errors
 {
-    public class StaticStackErrors
+    public static class StaticStackErrors
     {
         // Stack Overflow Error.
         public const string StackOverflowError = "StackOverflowError: The Stack has reached the maximum number of elements. Push operations are not allowed.";

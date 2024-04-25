@@ -4,9 +4,9 @@ using Serilog;
 
 namespace StaticStack
 {
-    public class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             try
             {
@@ -94,6 +94,7 @@ namespace StaticStack
                         default:
                               throw new Exception(StaticStackErrors.InvalidStackOperationError);                         
                     }
+
                     if (stackOperation != 0)
                     {
                         Console.Write("\n\t\tType anything to continue....");

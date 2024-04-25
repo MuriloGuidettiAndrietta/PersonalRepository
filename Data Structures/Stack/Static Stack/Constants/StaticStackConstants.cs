@@ -1,6 +1,6 @@
 ﻿namespace StaticStack.Constants
 {
-    public class StaticStackConstants
+    public static class StaticStackConstants
     {
         // Default Maximum Size value for a Static Stack. 
         public const int DefaultMaximumStaticStackSize = 10;
