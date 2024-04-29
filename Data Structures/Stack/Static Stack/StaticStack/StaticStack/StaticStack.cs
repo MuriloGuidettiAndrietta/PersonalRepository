@@ -45,7 +45,7 @@ namespace StaticStack.StaticStack
         public T Top()
         {
             if (IsEmpty())
-                throw new Exception(StaticStackErrors.StackUnderflowError);
+                throw new Exception(StaticStackErrors.UnexistingTopElementError);
 
             return Stack[Count - 1];
         }

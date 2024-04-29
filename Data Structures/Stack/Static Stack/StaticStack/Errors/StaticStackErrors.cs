@@ -6,7 +6,10 @@
         public const string StackOverflowError = "StackOverflowError: The Stack has reached the maximum number of elements. Push operations are not allowed.";
 
         // Stack Underflow Error.
-        public const string StackUnderflowError = "StackUnderflowError: The Stack is empty. Top and Pop operations are not allowed.";
+        public const string StackUnderflowError = "StackUnderflowError: The Stack is empty. Pop operations are not allowed.";
+
+        // Unexisting Top Element Error
+        public const string UnexistingTopElementError = "UnexistingTopElementError: The Stack is empty. There's no Top element in it.";
 
         // Invalid Stack Size Error.
         public const string InvalidStackSizeError = "InvalidStackSizeError: The Stack size must be a positive integer.";
